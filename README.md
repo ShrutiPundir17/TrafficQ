@@ -3,12 +3,19 @@ TrafficQ is an innovative traffic light management system that intelligently con
 
 
 Table of Contents
+
 Features
+
 Technologies Used
+
 Setup and Installation
+
 How It Works
+
 Usage
+
 Contributing
+
 
 
 Features
@@ -16,11 +23,13 @@ Interactive Traffic Light Simulation: Simulates real-time traffic light control 
 Google Maps Integration: Displays real-time traffic data on Google Maps.
 Responsive Design: Adaptable user interface that works across devices.
 
+
 Technologies Used
 HTML: Structure of the web pages.
 CSS: Styling of the traffic light simulation and map.
 JavaScript: Logic to handle traffic light control and Google Maps integration.
 Google Maps API: For displaying real-time traffic data and routes.
+
 
 Setup and Installation
 Prerequisites:
@@ -35,15 +44,18 @@ git clone https://github.com/yourusername/trafficq.git
 Open the project folder and launch the index.html file in your web browser.
 Obtain a Google Maps API key from Google Cloud and add it to the relevant file in your project for map and traffic data integration.
 
+
 How It Works
 The frontend application uses Google Maps to display a map with live traffic data (such as traffic congestion levels) at different locations.
 The traffic lights are simulated in real-time based on the data received from Google Maps.
 The traffic lights (Red, Yellow, Green) change dynamically to reflect the traffic rush at different locations.
 
+
 Usage
 Open the index.html file in a browser to see the map and traffic light simulation.
 The system automatically adjusts traffic lights based on the simulated traffic flow and Google Maps data.
 Users can interact with the simulation by zooming in on the map and seeing how the traffic lights change in response to traffic conditions.
+
 
 Contributing
 Contributions are welcome! If you'd like to improve the frontend or add new features, follow these steps:
