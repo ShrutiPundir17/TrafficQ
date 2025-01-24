@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrafficQ - Smart Traffic Management</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
+  <script src="script.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@3.2.0/dist/leaflet-routing-machine.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.0/dist/leaflet-routing-machine.css" />
+
+</head>
+<body>
+  <header class="hero">
+    <div class="navbar">
+      <div class="logo">TrafficQ</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#traffic-control">Traffic Control</a></li>
+        <li><a href="#route-planner">Route Planner</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="hero-content">
+      <h1>Smart Traffic Management</h1>
+      <p>Real-time traffic updates for a seamless journey</p>
+      <a href="#dashboard" class="btn">View Dashboard</a>
+    </div>
+  </header>
+
+  <section class="features-section" id="features">
+    <h2>Our Features</h2>
+    <div class="features-container">
+      <div class="feature-box">
+        <h3>Real-Time Data</h3>
+        <p>Get live traffic updates to avoid congestion and save time.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Smart Navigation</h3>
+        <p>Dynamic routing based on current road conditions.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Interactive Dashboard</h3>
+        <p>Visualize traffic trends and plan your trips effectively.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="dashboard-section" id="dashboard">
+    <h2>Current Traffic Trends in Delhi</h2>
+    <div id="map"></div>
+  </section>
+
+  <section class="route-planner-section" id="route-planner">
+    <h2>Route Planner</h2>
+    <div class="route-form">
+      <label for="start">Start Location:</label>
+      <input type="text" id="start" placeholder="Enter your starting point">
+      <label for="destination">Destination:</label>
+      <input type="text" id="destination" placeholder="Enter your destination">
+      <button id="getRoute" class="btn">Get Best Route</button>
+    </div>
+    <div id="routeDetails"></div>
+    <div id="routeMap"></div>
+  </section>
+
+  <section class="traffic-control-section" id="traffic-control">
+    <h2>Control Traffic Lights</h2>
+    <div class="control-container">
+      <div class="intersection-control">
+        <h3>Intersection 1</h3>
+        <div class="traffic-light">
+          <button id="green-1" class="btn light-btn green">Green</button>
+          <button id="yellow-1" class="btn light-btn yellow">Yellow</button>
+          <button id="red-1" class="btn light-btn red">Red</button>
+        </div>
+      </div>
+      <div class="intersection-control">
+        <h3>Intersection 2</h3>
+        <div class="traffic-light">
+          <button id="green-2" class="btn light-btn green">Green</button>
+          <button id="yellow-2" class="btn light-btn yellow">Yellow</button>
+          <button id="red-2" class="btn light-btn red">Red</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer class="footer">
+    <p>© 2025 TrafficQ. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+

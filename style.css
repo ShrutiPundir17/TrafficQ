@@ -1,0 +1,232 @@
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      
+      .hero {
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+      }
+      
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #00274d;
+      }
+      
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+      }
+      
+      .nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .nav-links li {
+        margin: 0 10px;
+      }
+      
+      .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+      
+      .nav-links a:hover {
+        color: #00f2fe;
+      }
+      
+      .hero-content {
+        margin-top: 20px;
+      }
+      
+      .hero-content h1 {
+        font-size: 36px;
+        margin: 10px 0;
+      }
+      
+      .hero-content p {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+      
+      .hero-content .btn {
+        text-decoration: none;
+        background-color: white;
+        color: #00274d;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      
+      .hero-content .btn:hover {
+        background-color: #00f2fe;
+        color: white;
+      }
+      
+      .features-section {
+        text-align: center;
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+      }
+      
+      .features-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+      
+      .feature-box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 200px;
+      }
+      
+      .feature-box h3 {
+        margin: 0 0 10px;
+        color: #00274d;
+      }
+      
+      .route-planner-section {
+        padding: 40px 20px;
+        background-color: #e6f7ff;
+        text-align: center;
+      }
+      
+      .route-form {
+        margin-bottom: 20px;
+      }
+      
+      .route-form input {
+        padding: 10px;
+        margin: 5px;
+        width: 80%;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      
+      .route-form button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #00274d;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .route-form button:hover {
+        background-color: #00f2fe;
+      }
+      
+      #map {
+        height: 400px;
+        width: 100%;
+        margin: 20px auto;
+        border: 2px solid #00274d;
+      }
+      
+      #routeDetails {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      
+      .footer {
+        background-color: #00274d;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+      }
+/* Global styles for buttons */
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Light button styles (default states) */
+  .light-btn {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    transition: transform 0.3s ease;
+  }
+  
+  .light-btn.green {
+    background-color: #4CAF50; 
+  }
+  
+  .light-btn.yellow {
+    background-color: #FFEB3B; 
+  }
+  
+  .light-btn.red {
+    background-color: #F44336; 
+  }
+  
+  
+  .light-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .light-btn.active {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .control-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+
+  .intersection-control {
+    text-align: center;
+  }
+  
+  .intersection-control h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .intersection-control .traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+        
