@@ -65,3 +65,10 @@ Create a new branch (git checkout -b feature-name).
 Commit your changes (git commit -am 'Add new feature').
 Push to the branch (git push origin feature-name).
 Open a pull request.
+
+
+![image](https://github.com/user-attachments/assets/112057d6-2ed2-4078-bfb6-3980cb38c713)
+![image](https://github.com/user-attachments/assets/3c4fc985-51e3-44b0-9553-c66d4e6f02d6)
+![image](https://github.com/user-attachments/assets/4095a3db-d23f-4a8d-8b63-82b0d55bf5ed)
+
+
